@@ -1,7 +1,7 @@
 /*****************************************************************************
  *
- * FILE:	AppDelegate.h
- * DESCRIPTION:	PhotoDownloader: Application Main Controller
+ * FILE:	RootViewController.h
+ * DESCRIPTION:	PhotoDownloader: Root View Controller
  * DATE:	Mon, Mar 25 2013
  * UPDATED:	Mon, Mar 25 2013
  * AUTHOR:	Kouichi ABE (WALL) / 阿部康一
@@ -36,18 +36,9 @@
  *   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  *   THE POSSIBILITY OF SUCH DAMAGE.
  *
- * $Id: AppDelegate.h,v 1.2 2013/01/22 15:23:51 kouichi Exp $
+ * $Id: RootViewController.h,v 1.1 2013/01/15 19:37:50 kouichi Exp $
  *
  *****************************************************************************/
 
-#import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-{
-@private
-  UIWindow *	_window;
-}
-
-@property (nonatomic,strong) UIWindow *	window;
-
+@interface RootViewController : UICollectionViewController
 @end

@@ -16,6 +16,9 @@
 		B39F6731170010FF00B42C5C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B39F6730170010FF00B42C5C /* Default.png */; };
 		B39F6733170010FF00B42C5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B39F6732170010FF00B42C5C /* Default@2x.png */; };
 		B39F6735170010FF00B42C5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B39F6734170010FF00B42C5C /* Default-568h@2x.png */; };
+		B39F673D1700123300B42C5C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39F673C1700123300B42C5C /* RootViewController.m */; };
+		B39F674017001D4800B42C5C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B39F673E17001D4800B42C5C /* Icon.png */; };
+		B39F674117001D4800B42C5C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B39F673F17001D4800B42C5C /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		B39F6730170010FF00B42C5C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B39F6732170010FF00B42C5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B39F6734170010FF00B42C5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B39F673B1700123300B42C5C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B39F673C1700123300B42C5C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B39F673E17001D4800B42C5C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B39F673F17001D4800B42C5C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 		B39F6712170010FF00B42C5C = {
 			isa = PBXGroup;
 			children = (
+				B39F6725170010FF00B42C5C /* Supporting Files */,
 				B39F6724170010FF00B42C5C /* PhotoDownloader */,
 				B39F671D170010FF00B42C5C /* Frameworks */,
 				B39F671C170010FF00B42C5C /* Products */,
@@ -78,9 +86,10 @@
 		B39F6724170010FF00B42C5C /* PhotoDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				B39F673B1700123300B42C5C /* RootViewController.h */,
+				B39F673C1700123300B42C5C /* RootViewController.m */,
 				B39F672D170010FF00B42C5C /* AppDelegate.h */,
 				B39F672E170010FF00B42C5C /* AppDelegate.m */,
-				B39F6725170010FF00B42C5C /* Supporting Files */,
 			);
 			path = PhotoDownloader;
 			sourceTree = "<group>";
@@ -88,6 +97,8 @@
 		B39F6725170010FF00B42C5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B39F673E17001D4800B42C5C /* Icon.png */,
+				B39F673F17001D4800B42C5C /* Icon@2x.png */,
 				B39F6726170010FF00B42C5C /* PhotoDownloader-Info.plist */,
 				B39F6727170010FF00B42C5C /* InfoPlist.strings */,
 				B39F672A170010FF00B42C5C /* main.m */,
@@ -97,6 +108,7 @@
 				B39F6734170010FF00B42C5C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = PhotoDownloader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +166,8 @@
 				B39F6731170010FF00B42C5C /* Default.png in Resources */,
 				B39F6733170010FF00B42C5C /* Default@2x.png in Resources */,
 				B39F6735170010FF00B42C5C /* Default-568h@2x.png in Resources */,
+				B39F674017001D4800B42C5C /* Icon.png in Resources */,
+				B39F674117001D4800B42C5C /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +180,7 @@
 			files = (
 				B39F672B170010FF00B42C5C /* main.m in Sources */,
 				B39F672F170010FF00B42C5C /* AppDelegate.m in Sources */,
+				B39F673D1700123300B42C5C /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
